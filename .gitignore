@@ -1,0 +1,24 @@
+# Arduino / PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Credenziali locali — NON committare mai
+secrets.h
+config.h
+credentials.h
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
